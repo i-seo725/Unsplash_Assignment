@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		F45F3A6E2AB89A3C00EB8AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3A6D2AB89A3C00EB8AFA /* AppDelegate.swift */; };
 		F45F3A702AB89A3C00EB8AFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3A6F2AB89A3C00EB8AFA /* SceneDelegate.swift */; };
-		F45F3A722AB89A3C00EB8AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3A712AB89A3C00EB8AFA /* ViewController.swift */; };
-		F45F3A752AB89A3C00EB8AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45F3A732AB89A3C00EB8AFA /* Main.storyboard */; };
+		F45F3A722AB89A3C00EB8AFA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3A712AB89A3C00EB8AFA /* MainViewController.swift */; };
 		F45F3A772AB89A3D00EB8AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45F3A762AB89A3D00EB8AFA /* Assets.xcassets */; };
 		F45F3A7A2AB89A3D00EB8AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45F3A782AB89A3D00EB8AFA /* LaunchScreen.storyboard */; };
+		F45F3A822AB89AA000EB8AFA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3A812AB89AA000EB8AFA /* APIManager.swift */; };
+		F45F3A842AB89AD100EB8AFA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F45F3A832AB89AD100EB8AFA /* .gitignore */; };
+		F45F3A862AB89AE500EB8AFA /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3A852AB89AE500EB8AFA /* APIKey.swift */; };
+		F45F3A892AB89C6600EB8AFA /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3A882AB89C6600EB8AFA /* Photo.swift */; };
+		F45F3A8B2AB89EE300EB8AFA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3A8A2AB89EE300EB8AFA /* ViewModel.swift */; };
+		F45F3A8D2AB89EF000EB8AFA /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3A8C2AB89EF000EB8AFA /* Observable.swift */; };
+		F45F3A902AB8A19E00EB8AFA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F45F3A8F2AB8A19E00EB8AFA /* SnapKit */; };
+		F45F3A932AB8A66C00EB8AFA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F45F3A922AB8A66C00EB8AFA /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F45F3A6A2AB89A3C00EB8AFA /* Unsplash_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unsplash_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45F3A6D2AB89A3C00EB8AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F45F3A6F2AB89A3C00EB8AFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F45F3A712AB89A3C00EB8AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F45F3A742AB89A3C00EB8AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45F3A712AB89A3C00EB8AFA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F45F3A762AB89A3D00EB8AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F45F3A792AB89A3D00EB8AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F45F3A7B2AB89A3D00EB8AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45F3A812AB89AA000EB8AFA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		F45F3A832AB89AD100EB8AFA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F45F3A852AB89AE500EB8AFA /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		F45F3A882AB89C6600EB8AFA /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		F45F3A8A2AB89EE300EB8AFA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F45F3A8C2AB89EF000EB8AFA /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45F3A902AB8A19E00EB8AFA /* SnapKit in Frameworks */,
+				F45F3A932AB8A66C00EB8AFA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,28 @@
 		F45F3A6C2AB89A3C00EB8AFA /* Unsplash_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				F45F3A872AB89C4B00EB8AFA /* Unsplash */,
 				F45F3A6D2AB89A3C00EB8AFA /* AppDelegate.swift */,
 				F45F3A6F2AB89A3C00EB8AFA /* SceneDelegate.swift */,
-				F45F3A712AB89A3C00EB8AFA /* ViewController.swift */,
-				F45F3A732AB89A3C00EB8AFA /* Main.storyboard */,
 				F45F3A762AB89A3D00EB8AFA /* Assets.xcassets */,
 				F45F3A782AB89A3D00EB8AFA /* LaunchScreen.storyboard */,
 				F45F3A7B2AB89A3D00EB8AFA /* Info.plist */,
+				F45F3A832AB89AD100EB8AFA /* .gitignore */,
+				F45F3A852AB89AE500EB8AFA /* APIKey.swift */,
 			);
 			path = Unsplash_Assignment;
+			sourceTree = "<group>";
+		};
+		F45F3A872AB89C4B00EB8AFA /* Unsplash */ = {
+			isa = PBXGroup;
+			children = (
+				F45F3A812AB89AA000EB8AFA /* APIManager.swift */,
+				F45F3A712AB89A3C00EB8AFA /* MainViewController.swift */,
+				F45F3A882AB89C6600EB8AFA /* Photo.swift */,
+				F45F3A8A2AB89EE300EB8AFA /* ViewModel.swift */,
+				F45F3A8C2AB89EF000EB8AFA /* Observable.swift */,
+			);
+			path = Unsplash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +110,10 @@
 			dependencies = (
 			);
 			name = Unsplash_Assignment;
+			packageProductDependencies = (
+				F45F3A8F2AB8A19E00EB8AFA /* SnapKit */,
+				F45F3A922AB8A66C00EB8AFA /* Alamofire */,
+			);
 			productName = Unsplash_Assignment;
 			productReference = F45F3A6A2AB89A3C00EB8AFA /* Unsplash_Assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,10 @@
 				Base,
 			);
 			mainGroup = F45F3A612AB89A3C00EB8AFA;
+			packageReferences = (
+				F45F3A8E2AB8A19E00EB8AFA /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F45F3A912AB8A66C00EB8AFA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F45F3A6B2AB89A3C00EB8AFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F45F3A7A2AB89A3D00EB8AFA /* LaunchScreen.storyboard in Resources */,
+				F45F3A842AB89AD100EB8AFA /* .gitignore in Resources */,
 				F45F3A772AB89A3D00EB8AFA /* Assets.xcassets in Resources */,
-				F45F3A752AB89A3C00EB8AFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +173,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45F3A722AB89A3C00EB8AFA /* ViewController.swift in Sources */,
+				F45F3A8D2AB89EF000EB8AFA /* Observable.swift in Sources */,
+				F45F3A892AB89C6600EB8AFA /* Photo.swift in Sources */,
+				F45F3A822AB89AA000EB8AFA /* APIManager.swift in Sources */,
+				F45F3A722AB89A3C00EB8AFA /* MainViewController.swift in Sources */,
 				F45F3A6E2AB89A3C00EB8AFA /* AppDelegate.swift in Sources */,
 				F45F3A702AB89A3C00EB8AFA /* SceneDelegate.swift in Sources */,
+				F45F3A862AB89AE500EB8AFA /* APIKey.swift in Sources */,
+				F45F3A8B2AB89EE300EB8AFA /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F45F3A732AB89A3C00EB8AFA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F45F3A742AB89A3C00EB8AFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F45F3A782AB89A3D00EB8AFA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +324,9 @@
 				INFOPLIST_FILE = Unsplash_Assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +334,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "eunseo.Unsplash-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +355,9 @@
 				INFOPLIST_FILE = Unsplash_Assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +365,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "eunseo.Unsplash-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +396,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F45F3A8E2AB8A19E00EB8AFA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F45F3A912AB8A66C00EB8AFA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F45F3A8F2AB8A19E00EB8AFA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F45F3A8E2AB8A19E00EB8AFA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F45F3A922AB8A66C00EB8AFA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F45F3A912AB8A66C00EB8AFA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F45F3A622AB89A3C00EB8AFA /* Project object */;
 }
