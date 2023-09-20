@@ -6,42 +6,30 @@
 //
 
 import UIKit
+import SnapKit
+import Kingfisher
 
 class BeerViewController: UIViewController {
+    
+    let imageView = {
+        let view = UIImageView()
+        view.contentMode = .scaleAspectFit
+        return view
+    }()
+    let viewModel = BeerViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         
-        BeerNetworkManager.shared.request(api: .random) { response in
-            switch response {
-            case .success(let success):
-                print("random =============")
-                dump(success)
-                print("random =============")
-            case .failure(let failure):
-                print(failure)
-            }
+        view.addSubview(imageView)
+        imageView.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+            make.size.equalTo(250)
         }
-        
-        BeerNetworkManager.shared.request(api: .aBeer(id: 91)) { response in
-            switch response {
-            case .success(let success):
-                print("aBeer =============")
-                dump(success)
-                print("aBeer =============")
-            case .failure(let failure):
-                print(failure)
-            }
-        }
-        
-        BeerNetworkManager.shared.request(api: .beers) { response in
-            switch response {
-            case .success(let success):
-                dump(success)
-            case .failure(let failure):
-                print(failure)
-            }
+       
+        viewModel.request(api: .aBeer(id: 7)) { url in
+            self.imageView.kf.setImage(with: url)
         }
     }
     

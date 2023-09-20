@@ -8,29 +8,36 @@
 import Foundation
 import Alamofire
 
-enum BeerAPI {
+enum BeerAPI: URLRequestConvertible {
     
-    var baseURL: String {
-        return "https://api.punkapi.com/v2/"
+    private var baseURL: URL {
+        return URL(string: "https://api.punkapi.com/v2/")!
     }
     
     case beers
     case aBeer(id: Int)
     case random
     
-    var endpoint: URL? {
+    private var endpoint: String {
         switch self {
         case .beers:
-            return URL(string: baseURL + "beers")
+            return "beers"
         case .aBeer(let id):
-            return URL(string: baseURL + "beers/\(id)")
+            return "beers/\(id)"
         case .random:
-            return URL(string: baseURL + "beers/random")
+            return "beers/random"
         }
     }
     
-    var method: HTTPMethod {
+    private var method: HTTPMethod {
         return .get
+    }
+    
+    func asURLRequest() throws -> URLRequest {
+        let url = baseURL.appendingPathComponent(endpoint)
+        var request = URLRequest(url: url)
+        request.method = method
+        return request
     }
     
 }

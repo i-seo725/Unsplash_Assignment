@@ -14,8 +14,7 @@ class BeerNetworkManager {
     private init() { }
     
     func request(api: BeerAPI, completionHandler: @escaping (Result<Beer, StatusCodeError>) -> Void) {
-        guard let url = api.endpoint else { return }
-        AF.request(url, method: api.method).responseDecodable(of: Beer.self) { response in
+        AF.request(api).responseDecodable(of: Beer.self) { response in
             switch response.result {
             case .success(let data):
                 print(data)
